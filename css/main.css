@@ -2,7 +2,9 @@
 
 :root {
   --bs-primary:#2e483a;
+  --bs-primary-rgb: 46, 72, 58;
   --bs-light: #f6f3ed;
+  --bs-body-bg:var(--bs-light);
 }
 
 .navbar {
@@ -15,7 +17,7 @@ background-color: var(--bs-primary);
 
 body {
   font-family: "Sarala", sans-serif;
-  background-color: #F6F3ED;
+  background-color: var(--bs-light);
 }
 
 h1, h2, h3 {
@@ -43,6 +45,7 @@ h1, h2, h3 {
 
 #hero .d-flex {
   height: 800px;
+  padding: 4rem;
 }
 
 #cta {
